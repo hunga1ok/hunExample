@@ -1,10 +1,11 @@
-package corp.hun.hunexample
+package corp.hun.hunexample.pages
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import corp.hun.hunexample.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
-
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
 
